@@ -37,3 +37,5 @@ Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018)
 - **Apple Watch** unlock is not consitant but seems to be a generic problem on hackintoshes
 
 - **2.4 GHz Wifi interference** with Bluetooth (mostly Bluetooth audio) also seems to be a common problem
+## Download
+链接：https://cloud.189.cn/t/EBr2MfqI3uEn（访问码：hah3）
