@@ -22,20 +22,17 @@ Use this OpenCore EFI to run MacOS on Acer Swift 3 SF314-54 (2018)
 
 - **Fingerprint sensor** is not working
 - **Built-in DMIC** is not working
-
 - Everything else works well
-
 - Brightness keys now using new .kext and working 100% with normal brightness keys **F3** and **F4**
-
-
- 
-
 - Install **Captin.dmg** to have a Caps Lock indicator on screen
-
 - Install **ComboJack** to assist with Headphones / Headset
-
 - **Apple Watch** unlock is not consitant but seems to be a generic problem on hackintoshes
-
 - **2.4 GHz Wifi interference** with Bluetooth (mostly Bluetooth audio) also seems to be a common problem
 ## Download
 链接：https://cloud.189.cn/t/EBr2MfqI3uEn（访问码：hah3）
+## Install
+- First. flash MacOS dmg file to greater than or equal to 16g of usb disk by [Etcher](https://github.com/balena-io/etcher)
+- Second. disable secure boot and enbale VTX from BIOS
+- Third. reboot computer from usb and enter windows 11 pe
+- Fourth. replace EFI of opencore with this project EFI
+- Last. reboot compoter and enter MacOS install
